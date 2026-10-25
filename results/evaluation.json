@@ -1,0 +1,47 @@
+{
+  "test_patients": 15,
+  "tumour_slices": 180,
+  "methods": {
+    "GA-FCM": {
+      "mean_dice": 0.6030633285199142,
+      "median_dice": 0.6768616715155373,
+      "mean_iou": 0.48847133725579445,
+      "mean_iterations": 48.272222222222226,
+      "mean_seconds": 0.6326267308659024,
+      "restart_dice_std": 0.008657336517892187,
+      "restart_dice_range": 0.021636633473390968,
+      "worse_local_optimum_rate": 0.006666666666666667,
+      "false_positive_rate_clean_slices": 0.8
+    },
+    "FCM (random init)": {
+      "mean_dice": 0.6030973792046314,
+      "median_dice": 0.6768616715155373,
+      "mean_iou": 0.4885029113775167,
+      "mean_iterations": 63.2,
+      "mean_seconds": 0.20468329985936481,
+      "restart_dice_std": 0.008652793438646151,
+      "restart_dice_range": 0.021630525299403895,
+      "worse_local_optimum_rate": 0.006666666666666667,
+      "false_positive_rate_clean_slices": 0.8
+    },
+    "k-means": {
+      "mean_dice": 0.5920517837554252,
+      "median_dice": 0.6901436810492245,
+      "mean_iou": 0.48101445677904736,
+      "mean_iterations": 45.28888888888889,
+      "mean_seconds": 0.10344403584798177,
+      "restart_dice_std": 0.02634488928070926,
+      "restart_dice_range": 0.0626971121648159,
+      "worse_local_optimum_rate": 0.05,
+      "false_positive_rate_clean_slices": 0.7666666666666667
+    }
+  },
+  "fuzziness": {
+    "mean_fuzziness_wrong_pixels": 0.4259572570633622,
+    "mean_fuzziness_correct_pixels": 0.10208301246166229,
+    "share_of_errors_in_fuzzy_pixels": 0.40626419235610517,
+    "share_of_brain_that_is_fuzzy": 0.07504779119208776,
+    "mean_fuzziness_on_expert_boundary": 0.3073311150074005,
+    "mean_fuzziness_inside_tumour": 0.34715938568115234
+  }
+}
